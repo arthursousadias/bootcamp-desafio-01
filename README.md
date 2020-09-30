@@ -18,5 +18,5 @@ Um cliente possui nome, CPF, renda, data de nascimento, e quantidade de filhos. 
 
 Seu projeto deverá fazer um seed de pelo menos 10 clientes com dados SIGNIFICATIVOS (não é para usar dados sem significado como “Nome 1”, “Nome 2”, etc.).
 
+<img src=”https://github.com/arthursousadias/bootcamp-desafio-01/blob/master/images/diagramaClasseCliente.gif”>
 
-<img> https://github.com/arthursousadias/bootcamp-desafio-01/blob/master/images/diagramaClasseCliente.gif </img>
