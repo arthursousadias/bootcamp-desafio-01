@@ -1,7 +1,5 @@
 # bootcamp-desafio-01
 Primeiro desafio do bootcamp
-Autor : Arthur Dias
-
 
 Caso de Uso:
 
