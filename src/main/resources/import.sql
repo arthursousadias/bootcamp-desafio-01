@@ -1,0 +1,12 @@
+INSERT INTO TB_CLIENT(name, cpf, income, birth_Date, children) values ('Monteiro Lobato', '000.000.001-01',2510.20, '1780-12-15' ,1); 
+INSERT INTO TB_CLIENT(name, cpf, income, birth_Date, children) values ('Machado de Assis', '000.000.002-02',3510.20, '1880-06-16' ,2); 
+INSERT INTO TB_CLIENT(name, cpf, income, birth_Date, children) values ('Gabriel Garcia Marquez', '000.000.003-02',1980.20, '1900-07-16',null); 
+INSERT INTO TB_CLIENT(name, cpf, income, birth_Date, children) values ('Clarice Linspector', '000.000.004-01',10510.20, '1960-12-15' ,1); 
+INSERT INTO TB_CLIENT(name, cpf, income, birth_Date, children) values ('Ken Follet', '000.000.010-02',20510.20, '1970-10-16' ,3); 
+INSERT INTO TB_CLIENT(name, cpf, income, birth_Date, children) values ('Miguel de Cervantes', '000.010.023-02',20980.20, '1615-07-16',10); 
+INSERT INTO TB_CLIENT(name, cpf, income, birth_Date, children) values ('Pedro Alves Cabral', '000.987.001-01',2510.20, '1780-12-15' ,1); 
+INSERT INTO TB_CLIENT(name, cpf, income, birth_Date, children) values ('José Amarantes', '000.236.002-02',3510.20, '1880-06-16' ,2); 
+INSERT INTO TB_CLIENT(name, cpf, income, birth_Date, children) values ('Valter Cerquilha', '000.567.003-02',1980.20, '1900-07-16',null); 
+INSERT INTO TB_CLIENT(name, cpf, income, birth_Date, children) values ('Clarice Limeira da Silva', '000.520.004-01',10510.20, '1960-12-15' ,7); 
+INSERT INTO TB_CLIENT(name, cpf, income, birth_Date, children) values ('João Tomé', '036.000.010-02',20510.20, '1970-10-16' ,3); 
+INSERT INTO TB_CLIENT(name, cpf, income, birth_Date, children) values ('Paulo Nascimento', '780.010.023-02',20980.20, '1615-07-16',9); 
