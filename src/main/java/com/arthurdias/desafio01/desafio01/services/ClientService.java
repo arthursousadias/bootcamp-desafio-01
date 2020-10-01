@@ -37,7 +37,8 @@ public class ClientService {
 
 	@Transactional
 	public ClientDTO insert(ClientDTO dto) {
-		Client entity = copyToEntity(dto);
+		Client entity = new Client(); 
+		entity = copyToEntity(dto,entity);
 		entity = repository.save(entity);
 		return new ClientDTO(entity);
 	}
@@ -46,7 +47,7 @@ public class ClientService {
 	public ClientDTO update(Long id, ClientDTO dto) {
 		Client entity = repository.getOne(id);
 		try {
-			entity = copyToEntity(dto);
+			entity = copyToEntity(dto,entity);
 			entity = repository.save(entity);
 		} catch (EntityNotFoundException e) {
 			throw new ResourceNotFoundException("Id not found " + id);
@@ -64,13 +65,12 @@ public class ClientService {
 		}
 	}
 
-	public Client copyToEntity(ClientDTO dto) {
-		Client entity = new Client();
+		
+	public Client copyToEntity(ClientDTO dto, Client entity) {
 		entity.setName(dto.getName());
 		entity.setBirthDate(dto.getBirthDate());
 		entity.setChildren(dto.getChildren());
 		entity.setCpf(dto.getCpf());
-		entity.setId(dto.getId());
 		entity.setIncome(dto.getIncome());
 		return entity;
 	}
